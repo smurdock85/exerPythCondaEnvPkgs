@@ -2,9 +2,9 @@
 
 ## Summary of steps to complete
 
-- [ ] Fork this repository so you have your own copy to work on.
-- [ ] Clone the repository on your local machine. 
-- [ ] Edit this README.md file on your machine.
+- [x] Fork this repository so you have your own copy to work on.
+- [x] Clone the repository on your local machine. 
+- [x] Edit this README.md file on your machine.
 - [ ] Run the Conda commands shown in the video and describe them in the table below.
 - [ ] Push your changes to your GitHub repository.
 - [ ] Submit a link to this GitHub repository in Canvas.
