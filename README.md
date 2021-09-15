@@ -75,7 +75,9 @@
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
 ```
-#Paste your results here.
+# conda environments:
+# base                  
+# *  /Users/shelby/opt/anaconda3
 
 
 ```
