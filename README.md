@@ -5,7 +5,7 @@
 - [x] Fork this repository so you have your own copy to work on.
 - [x] Clone the repository on your local machine. 
 - [x] Edit this README.md file on your machine.
-- [ ] Run the Conda commands shown in the video and describe them in the table below.
+- [x] Run the Conda commands shown in the video and describe them in the table below.
 - [ ] Push your changes to your GitHub repository.
 - [ ] Submit a link to this GitHub repository in Canvas.
 
@@ -22,7 +22,7 @@
   
 ## Edit your README.md file
 
-* [ ] In an editor of your choice (i.e. VSCode) edit this README.md file to add the answers requested in the tables.
+* [x] In an editor of your choice (i.e. VSCode) edit this README.md file to add the answers requested in the tables.
 
 ## Follow along with this tutorial
 
@@ -38,23 +38,39 @@
 
 |   Concept   |         Description or short answer         |
 |     ---     |                     ---                     |
-|What is the purpose of having different environments?     |(enter description or short answer here)|
-|What is the default package manager in Python?            |(enter description or short answer here)|
-|How do you manage environments and packages in Anaconda?  |(enter description or short answer here)|
-|`conda list`       |(enter description or short answer here)|
-|`conda env list`       |(enter description or short answer here)|
-|How do you keep your base environment unchanged?       |(enter description or short answer here)|
-|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(enter description or short answer here)|
-|`conda create --name XXXX`       |(enter description or short answer here)|
-|`source activate XXXX`       |(enter description or short answer here)|
-|`conda install YYYY`       |(enter description or short answer here)|
-|channels in Conda       |(enter description or short answer here)|
-|`conda install -c ZZZZ YYYY`       |(enter description or short answer here)|
-|`conda config --show channels`       |(enter description or short answer here)|
-|`conda config --add channels ZZZZ`       |(enter description or short answer here)|
-|conda-forge.org       |(enter description or short answer here)|
-|`source deactivate`       |(enter description or short answer here)|
-|`conda config --get channels`       |(enter description or short answer here)|
+|What is the purpose of having different environments?     |(They let us do different tasks for different purposes such as web development, data analysis, and AI.)|
+
+|What is the default package manager in Python?            |(pip)|
+
+|How do you manage environments and packages in Anaconda?  |()|
+
+|`conda list`       |(all the default packages that were installed with miniconda)|
+
+|`conda env list`       |(all the enviornments available, when installed it will only show the default list)|
+
+|How do you keep your base environment unchanged?       |(create multiple enviornments to install specific packages to)|
+
+|What is the link to the Conda cheat sheet? (link in video notes is broken)      |(https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf)|
+
+|`conda create --name XXXX`       |(creates a new environment name XXXX)|
+
+|`source activate XXXX`       |(activates the new enviornment for use)|
+
+|`conda install YYYY`       |(installs a new package named YYYY)|
+
+|channels in Conda       |(this is where packages are stored in conda)|
+
+|`conda install -c ZZZZ YYYY`       |(installs a specific package using a channel)|
+
+|`conda config --show channels`       |(it shows if we have a specific default channel)|
+
+|`conda config --add channels ZZZZ`       |(add a specific channel to our channel list)|
+
+|conda-forge.org       |(community led collection of packages - repositories of conda recipes)|
+
+|`source deactivate`       |(takes us back to our base channel)|
+
+|`conda config --get channels`       |(shows priority of channels and shows lowest and highest)|
 
 * After creating the environments he created in the video on your computer, what would the results of running the command `conda env list` look like with the da35 environment activated. Paste the output from your command prompt in the code block below.
 
@@ -64,9 +80,7 @@
 
 ```
 * What command would you use to remove the environments you created for this exercise from your computer?
-
-```
-#Type the command here.
+`conda env remove --XXXX`
 
 ```
 ## 2021 Update
